@@ -7,7 +7,7 @@ library(tidyr)
 library(dplyr)
 
 getwd()
-setwd("C:/Users/Akanksha Singh ISB/Desktop")
+setwd("path")
 
 # Load the dataset
 hrdata<-read.csv("HR_comma_sep.csv", header = TRUE, stringsAsFactors = F, na.strings = c("NA", "N/A", ""))
